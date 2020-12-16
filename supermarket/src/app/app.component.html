@@ -1,3 +1,9 @@
 <h1>VIVA LA PIZZA!!!</h1>
 
-<app-search></app-search> <!--aggiungo il search component -->
+<nav>
+  <a routerLink="/about" routerLinkActive="active">about</a> |
+  <a routerLink="/search" routerLinkActive="active">search</a>
+</nav>
+<!--qui è dove angular sostituirà i componenti richiamati dal routing-->
+<router-outlet></router-outlet>
+
